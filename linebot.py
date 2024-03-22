@@ -18,3 +18,4 @@ if int(price) < 500:  #將爬取的價格字串轉型為整數
     r = requests.post("https://notify-api.line.me/api/notify",
                       headers=headers, params=params)
     print(r.status_code)  #200
+    #123
