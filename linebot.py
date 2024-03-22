@@ -19,3 +19,4 @@ if int(price) < 500:  #將爬取的價格字串轉型為整數
                       headers=headers, params=params)
     print(r.status_code)  #200
     #123
+    #234
